@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zn">
+<head>
+  <meta charset="UTF-8">
+  <title>Todo</title>
+  <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+  <!-- 主体 -->
+  <div id='main-wrapper'>
+    <!-- 标题 -->
+    <h1>todos</h1>
+    <!-- 输入区 -->
+    <div id='inp-area'>
+      <label class="check-all">
+        <input type="checkbox" id='select-all'>
+        <span></span>
+      </label>
+      <input type="text" id='inp-to-do' required spellcheck="false">
+      <label for="inp-to-do" id='place-holder'>
+        What needs to be done?
+      </label>
+    </div>
+    <!-- 清单 -->
+    <ul id='list'></ul>
+    <!-- 状态栏 -->
+    <div id='status'>
+      <span class='count'>0 item left</span>
+      <ul class='order'>
+        <li tabindex="11">All</li>
+        <li tabindex="12">Active</li>
+        <li tabindex="13">Completed</li>
+      </ul>
+      <span id="clear-completed">clear completed</span>
+    </div>
+  </div>
+  <script type="text/javascript" src="../js/index.js"></script>
+</body>
+</html>
