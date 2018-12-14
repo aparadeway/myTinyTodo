@@ -1,6 +1,4 @@
-拿原生JS仿了一个[Todo List]([http://todomvc.com/examples/vue/](qq://txfile/#) )。
-
-样式瞎写的，只仿了交互。
+拿原生Js做了一个[Todo List]([http://todomvc.com/examples/vue/](qq://txfile/#) )。
 
 [演示地址](http://118.24.51.31/todo/html/)
 
@@ -9,4 +7,4 @@
 * 勾选的条目自动变为“已完成”状态
 * 下方操作栏显示待做条目的数量
 * 可按状态查看条目
-* 可清楚已完成条目
+* 可清除已完成条目
