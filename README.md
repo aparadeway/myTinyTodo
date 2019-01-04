@@ -1,4 +1,5 @@
-拿原生Js做了一个[Todo List]([http://todomvc.com/examples/vue/](qq://txfile/#) )。
+拿原生Js做了一个Todo。
+因为项目比较迷你，所以并没有按照功能对代码进行拆分
 
 [演示地址](http://118.24.51.31/todo/html/)
 
